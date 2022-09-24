@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Select, { SelectOption } from './Select'
 import { useState } from 'react'
 
