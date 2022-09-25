@@ -16,13 +16,13 @@ function App() {
   const [value2, setValue2] = useState<SelectOption | undefined>(options[0])
 
   return (
-    <>
+    <div className='container'>
     <h1>Multi-select<br /> Dropdown:</h1>
     <br />
       <Select multiple options={options} value={value1} onChange={(o) => setValue1(o)} />
       <br />
       <Select options={options} value={value2} onChange={(o) => setValue2(o)} />
-    </>
+    </div>
   )
 }
 

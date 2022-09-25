@@ -10,9 +10,14 @@ body {
   background-color: #242424;
   color: #ffffffde;
   font-family: 'Sen', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   display: grid;
   justify-content: center;
-  padding-top: 200px;
+  padding-top: 150px;
   min-height: 100vh;
+}
+
+.container {
+  width: 90vw;
+  max-width: 20em;
 }
